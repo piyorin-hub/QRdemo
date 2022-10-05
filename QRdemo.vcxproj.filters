@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Cannon\AnimatedVector.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\DrawCall.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\DrawCall_init.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\DrawCall_mesh.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\DrawCall_shader.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\DrawCall_texture.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\FloatingSlate.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\FloatingText.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\MixedReality.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\RecordedValue.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Cannon\TrackedHands.cpp">
+      <Filter>Cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="AppMain.cpp">
+      <Filter>AppMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>AppMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>AppMain</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject.cpp">
+      <Filter>AppMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Cannon\Common\FileUtilities.h">
+      <Filter>Cannon\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\Common\FilterDoubleExponential.h">
+      <Filter>Cannon\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\Common\Intersectable.h">
+      <Filter>Cannon\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\Common\Timer.h">
+      <Filter>Cannon\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\AnimatedVector.h">
+      <Filter>Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\DrawCall.h">
+      <Filter>Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\FloatingSlate.h">
+      <Filter>Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\FloatingText.h">
+      <Filter>Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\MixedReality.h">
+      <Filter>Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\RecordedValue.h">
+      <Filter>Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Cannon\TrackedHands.h">
+      <Filter>Cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="AppMain.h">
+      <Filter>AppMain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Media\Texture\kadowakipoly.jpg">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Texture\LF_texture.jpg">
+      <Filter>Media\Textures</Filter>
+    </Image>
+    <Image Include="Media\Texture\poly.jpg">
+      <Filter>Media\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{db9086fe-bacc-4437-8272-1aa6642082db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cannon">
+      <UniqueIdentifier>{06791447-dab3-4a22-ae4f-c699e0f85e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cannon\Shaders">
+      <UniqueIdentifier>{9b74134d-cb78-478a-be4b-511cddf423b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cannon\Common">
+      <UniqueIdentifier>{c91d0cc4-452d-4683-82e0-5709a2bf001a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppMain">
+      <UniqueIdentifier>{8e5c45fd-8e00-41aa-b66d-554ace485431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media">
+      <UniqueIdentifier>{2d72e371-2ce2-4b41-9cb1-d207fd36dec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Meshes">
+      <UniqueIdentifier>{931c406e-a1b0-46dd-ba1f-eb3c735a3620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Textures">
+      <UniqueIdentifier>{4537a5b0-e988-4816-b65a-dee4bfbb1198}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PropertySheet.props" />
+    <None Include="packages.config" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Cannon\Shaders\Unlit_VS.hlsl">
+      <Filter>Cannon\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Cannon\Shaders\Unlit_VS_SPS.hlsl">
+      <Filter>Cannon\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Cannon\Shaders\UnlitTexture_PS.hlsl">
+      <Filter>Cannon\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Cannon\Shaders\Lit_PS.hlsl">
+      <Filter>Cannon\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Cannon\Shaders\Lit_VS.hlsl">
+      <Filter>Cannon\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Cannon\Shaders\Lit_VS_SPS.hlsl">
+      <Filter>Cannon\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Cannon\Shaders\LitTexture_PS.hlsl">
+      <Filter>Cannon\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Cannon\Shaders\LitTextureColorBlend_PS.hlsl">
+      <Filter>Cannon\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Media\Meshes\poly.obj">
+      <Filter>Media\Meshes</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

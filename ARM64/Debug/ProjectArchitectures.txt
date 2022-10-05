@@ -1,0 +1,1 @@
+C:\Users\piyorin\dev\QRdemo\QRdemo.vcxproj;arm64

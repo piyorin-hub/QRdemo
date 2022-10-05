@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-3TVIONP</Machine>
+    <WindowsUser>piyorin</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|ARM64</SolutionConfiguration>
+    <PackageArchitecture>arm64</PackageArchitecture>
+    <PackageIdentityName>5d3090d7-7c46-439c-ab57-c2704bba5979</PackageIdentityName>
+    <PackageIdentityPublisher>CN=piyorin</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\piyorin\dev\QRdemo\ARM64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B1626D0BDF4427BAC5FA19EB8A5FA3E5D0513C64A63CD473538A2AAB3742A9BB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5d3090d7-7c46-439c-ab57-c2704bba5979_1.0.0.0_arm64__1twj5sz7aryb0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5d3090d7-7c46-439c-ab57-c2704bba5979_1twj5sz7aryb0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5d3090d7-7c46-439c-ab57-c2704bba5979</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=piyorin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-03T09:09:42.352</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\QRdemo.exe">
+      <PackagePath>QRdemo.exe</PackagePath>
+      <Modified>2022-10-05T05:16:42.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\packages\Microsoft.MixedReality.QR.0.5.3019\build\native\..\..\runtimes\win10-ARM64\native\Microsoft.MixedReality.QR.dll">
+      <PackagePath>Microsoft.MixedReality.QR.dll</PackagePath>
+      <Modified>2022-06-18T00:14:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\packages\Microsoft.MixedReality.QR.0.5.3019\build\native\..\..\lib\uap10.0.18362\Microsoft.MixedReality.QR.winmd">
+      <PackagePath>Microsoft.MixedReality.QR.winmd</PackagePath>
+      <Modified>2022-06-18T00:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\LitTextureColorBlend_PS.cso">
+      <PackagePath>LitTextureColorBlend_PS.cso</PackagePath>
+      <Modified>2022-10-03T06:14:34.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\LitTexture_PS.cso">
+      <PackagePath>LitTexture_PS.cso</PackagePath>
+      <Modified>2022-10-03T06:14:34.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Lit_PS.cso">
+      <PackagePath>Lit_PS.cso</PackagePath>
+      <Modified>2022-10-03T06:14:34.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Lit_VS.cso">
+      <PackagePath>Lit_VS.cso</PackagePath>
+      <Modified>2022-10-03T06:14:34.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Lit_VS_SPS.cso">
+      <PackagePath>Lit_VS_SPS.cso</PackagePath>
+      <Modified>2022-10-03T06:14:34.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\UnlitTexture_PS.cso">
+      <PackagePath>UnlitTexture_PS.cso</PackagePath>
+      <Modified>2022-10-03T06:14:34.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Unlit_VS.cso">
+      <PackagePath>Unlit_VS.cso</PackagePath>
+      <Modified>2022-10-03T06:14:34.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Unlit_VS_SPS.cso">
+      <PackagePath>Unlit_VS_SPS.cso</PackagePath>
+      <Modified>2022-10-03T06:14:34.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2022-10-03T06:01:34.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-03T06:01:34.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-03T06:01:34.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-03T06:01:34.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-03T06:01:34.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2022-10-03T06:01:34.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2022-10-03T06:01:34.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Texture\kadowakipoly.jpg">
+      <PackagePath>Media\Texture\kadowakipoly.jpg</PackagePath>
+      <Modified>2022-10-03T06:01:34.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Texture\LF_texture.jpg">
+      <PackagePath>Media\Texture\LF_texture.jpg</PackagePath>
+      <Modified>2022-10-03T06:01:34.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Texture\poly.jpg">
+      <PackagePath>Media\Texture\poly.jpg</PackagePath>
+      <Modified>2022-10-03T08:28:40.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Meshes\poly.obj">
+      <PackagePath>Media\Meshes\poly.obj</PackagePath>
+      <Modified>2022-10-03T08:28:21.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\ARM64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2020-12-01T20:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2022-10-03T09:09:42.201</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+﻿  DrawCall_texture.cpp
+C:\Users\piyorin\dev\QRdemo\Cannon\DrawCall.h(484,2): warning C4324: 'DrawCall::Projection': アラインメント指定子のために構造体がパッドされました
+  QRdemo.vcxproj -> C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\QRdemo.exe
