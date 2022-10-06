@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-03T09:09:42.352</Modified>
+      <Modified>2022-10-06T07:15:25.176</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\QRdemo.exe">
       <PackagePath>QRdemo.exe</PackagePath>
-      <Modified>2022-10-05T05:16:42.844</Modified>
+      <Modified>2022-10-06T07:15:23.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\packages\Microsoft.MixedReality.QR.0.5.3019\build\native\..\..\runtimes\win10-ARM64\native\Microsoft.MixedReality.QR.dll">
       <PackagePath>Microsoft.MixedReality.QR.dll</PackagePath>
@@ -47,35 +47,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\LitTextureColorBlend_PS.cso">
       <PackagePath>LitTextureColorBlend_PS.cso</PackagePath>
-      <Modified>2022-10-03T06:14:34.284</Modified>
+      <Modified>2022-10-06T02:15:15.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\LitTexture_PS.cso">
       <PackagePath>LitTexture_PS.cso</PackagePath>
-      <Modified>2022-10-03T06:14:34.392</Modified>
+      <Modified>2022-10-06T02:15:16.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Lit_PS.cso">
       <PackagePath>Lit_PS.cso</PackagePath>
-      <Modified>2022-10-03T06:14:34.487</Modified>
+      <Modified>2022-10-06T02:15:16.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Lit_VS.cso">
       <PackagePath>Lit_VS.cso</PackagePath>
-      <Modified>2022-10-03T06:14:34.581</Modified>
+      <Modified>2022-10-06T02:15:16.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Lit_VS_SPS.cso">
       <PackagePath>Lit_VS_SPS.cso</PackagePath>
-      <Modified>2022-10-03T06:14:34.687</Modified>
+      <Modified>2022-10-06T02:15:16.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\UnlitTexture_PS.cso">
       <PackagePath>UnlitTexture_PS.cso</PackagePath>
-      <Modified>2022-10-03T06:14:34.777</Modified>
+      <Modified>2022-10-06T02:15:16.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Unlit_VS.cso">
       <PackagePath>Unlit_VS.cso</PackagePath>
-      <Modified>2022-10-03T06:14:34.867</Modified>
+      <Modified>2022-10-06T02:15:16.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\Unlit_VS_SPS.cso">
       <PackagePath>Unlit_VS_SPS.cso</PackagePath>
-      <Modified>2022-10-03T06:14:34.961</Modified>
+      <Modified>2022-10-06T02:15:16.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -110,16 +110,16 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2022-10-03T06:01:34.612</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Texture\kadowakipoly.jpg">
-      <PackagePath>Media\Texture\kadowakipoly.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Textures\kadowakipoly.jpg">
+      <PackagePath>Media\Textures\kadowakipoly.jpg</PackagePath>
       <Modified>2022-10-03T06:01:34.686</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Texture\LF_texture.jpg">
-      <PackagePath>Media\Texture\LF_texture.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Textures\LF_texture.jpg">
+      <PackagePath>Media\Textures\LF_texture.jpg</PackagePath>
       <Modified>2022-10-03T06:01:34.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Texture\poly.jpg">
-      <PackagePath>Media\Texture\poly.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Textures\poly.jpg">
+      <PackagePath>Media\Textures\poly.jpg</PackagePath>
       <Modified>2022-10-03T08:28:40.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Meshes\poly.obj">
@@ -132,7 +132,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-10-03T09:09:42.201</Modified>
+      <Modified>2022-10-06T07:15:25.006</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

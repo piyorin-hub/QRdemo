@@ -42,12 +42,6 @@
     <ClCompile Include="Update.cpp">
       <Filter>AppMain</Filter>
     </ClCompile>
-    <ClCompile Include="Render.cpp">
-      <Filter>AppMain</Filter>
-    </ClCompile>
-    <ClCompile Include="DrawObject.cpp">
-      <Filter>AppMain</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -110,13 +104,13 @@
     <Image Include="Assets\LockScreenLogo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="Media\Texture\kadowakipoly.jpg">
+    <Image Include="Media\Textures\kadowakipoly.jpg">
       <Filter>Media\Textures</Filter>
     </Image>
-    <Image Include="Media\Texture\LF_texture.jpg">
+    <Image Include="Media\Textures\LF_texture.jpg">
       <Filter>Media\Textures</Filter>
     </Image>
-    <Image Include="Media\Texture\poly.jpg">
+    <Image Include="Media\Textures\poly.jpg">
       <Filter>Media\Textures</Filter>
     </Image>
   </ItemGroup>
@@ -146,7 +140,7 @@
       <UniqueIdentifier>{931c406e-a1b0-46dd-ba1f-eb3c735a3620}</UniqueIdentifier>
     </Filter>
     <Filter Include="Media\Textures">
-      <UniqueIdentifier>{4537a5b0-e988-4816-b65a-dee4bfbb1198}</UniqueIdentifier>
+      <UniqueIdentifier>{502e9958-be26-405e-83b9-1c73ec0eacc6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

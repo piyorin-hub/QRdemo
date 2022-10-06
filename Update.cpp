@@ -6,21 +6,19 @@
 
 using namespace DirectX;
 
-float distance(const XMVECTOR& vector1, const XMVECTOR& vector2);
-XMVECTOR RprevPos, LprevPos;
+//float distance(const XMVECTOR& vector1, const XMVECTOR& vector2);
+//XMVECTOR RprevPos, LprevPos;
 
 
 bool AppMain::Update()
 {
-
-	double scale = 1;
-	auto pose = XMMatrixRotationX(0);
-	auto rotate = XMMatrixRotationX(90.0f * M_PI / 180.0f);
-	DirectX::XMMATRIX modelPos = XMMatrixIdentity();
-
 	m_mixedReality.Update();
 	F_hands.UpdateFromMixedReality(m_mixedReality);
-
+	//　デフォルト値
+	double scale = 1;
+	auto pose = XMMatrixRotationY(0);
+	auto rotate = XMMatrixRotationX(90.0f * M_PI / 180.0f);
+	DirectX::XMMATRIX modelPos = XMMatrixIdentity();
 
 	float frameDelta = F_frameDeltaTimer.GetTime();
 	if (frameDelta >= 3.6)
@@ -28,15 +26,15 @@ bool AppMain::Update()
 		F_frameDeltaTimer.Reset();
 	}
 
-
 	//QRコード状に表示
 	auto qr = m_mixedReality.GetTrackedQRCodeList();
 	if (!qr.empty())
 	{
 		OutputDebugStringA(("QR code : " + std::to_string(qr.size()) + " , " + qr[0].value + "\n").c_str());
 
-		modelPos = XMMatrixTranslationFromVector(XMVectorSet(qr[0].length / 2, qr[0].length / 2, 0.0f, 0.0f)) * qr[0].worldTransform;
+		modelPos = XMMatrixTranslationFromVector(XMVectorSet(qr[0].length / 2, qr[0].length / 2, 0.1f, 0.0f)) * qr[0].worldTransform;
 
+		//x, y, z
 		modelPos.r[3].n128_f32[0] /= scale;
 		modelPos.r[3].n128_f32[1] /= scale;
 		modelPos.r[3].n128_f32[2] /= scale;
@@ -45,25 +43,18 @@ bool AppMain::Update()
 
 		auto rot = XMMatrixRotationX(-90.0f / 180.0f * 3.14f);
 
-		auto rad = (frameDelta * 100.0f) / 180.0f * 3.14f;
+		//auto rad = (frameDelta * 100.0f) / 180.0f * 3.14f;
 
-		auto pose = XMMatrixRotationY(0);
-		auto pose1 = XMMatrixRotationY(-rad);
-
+		pose = XMMatrixRotationY(0);
+		//auto pose1 = XMMatrixRotationY(-rad);
 
 		m_transformTest = rot * modelPos;
-		//m_transformTest = pose1 * m_transformTest;
-		//m_modelTest.SetWorldTransform(XMMatrixMultiply(XMMatrixMultiply(trans, XMMatrixScaling(scale, scale, scale)), pose));
 	}
-	else
-	{
-		m_transformTest = XMMatrixTranslationFromVector(XMVectorSet(0.0f, 0.0f, 0.5f, 0.0f));
-		m_modelTest.SetWorldTransform(XMMatrixMultiply(XMMatrixMultiply(m_transformTest, XMMatrixScaling(scale, scale, scale)), pose));
-	}
+
+#ifdef Hand_track
 
 	if (F_hands.IsHandTracked(1))
 	{
-
 		XMVECTOR RtipsPos = F_hands.GetJoint(1, HandJointIndex::IndexTip);//人差し指先の座標
 		XMVECTOR RthumTipPos = F_hands.GetJoint(1, HandJointIndex::ThumbTip);//親指の先
 		XMVECTOR RdisPos = F_hands.GetJoint(1, HandJointIndex::IndexDistal);//人差し指第一関節
@@ -84,22 +75,19 @@ bool AppMain::Update()
 		m_transformTest = rotate * XMMatrixTranslationFromVector(tips_pos + (0.05 * fing_vec_e));
 
 #endif
-
-#if 1
-		//親指と人差し指の距離
-		auto diS = distance(RtipsPos, RthumTipPos);
-		//auto rotate = XMMatrixRotationY(90 * M_PI / 180);
-		if (diS <= 0.01f)//1cm以下ならつかみ判定
+#if 1	
+		auto dis = distance(RtipsPos, RthumTipPos);//親指と人差し指の距離
+		if (dis <= 0.01f)//1cm以下ならつかみ判定
 		{
 			RIsGrasp = true;
-			auto Rfing = RtipsPos - RdisPos;
+			//auto Rfing = RtipsPos - RdisPos;
 			//　掴んだ位置からの距離
 			double disBetprePos = double(distance(RtipsPos, RprevPos));
 			//　現在位置で更新
 			RprevPos = RtipsPos;
 			// scale UPDATE
 			scale = 1 + disBetprePos * 10;
-			auto Rfing_vec_e = XMVector3Normalize(Rfing);
+			//auto Rfing_vec_e = XMVector3Normalize(Rfing);
 			m_transformTest = rotate * modelPos;
 		}
 		else
@@ -111,6 +99,7 @@ bool AppMain::Update()
 #endif
 
 	}
+
 	// 左手
 	if (F_hands.IsHandTracked(0))
 	{
@@ -138,7 +127,7 @@ bool AppMain::Update()
 		}
 
 	}
-
+#endif
 
 #ifdef _ONLY_ONE
 	m_modelTest.SetWorldTransform(XMMatrixMultiply(XMMatrixMultiply(m_transformTest, XMMatrixScaling(scale, scale, scale)), pose));
@@ -150,6 +139,7 @@ bool AppMain::Update()
 	return false;
 }
 
+#ifdef Hand_track
 float distance(const XMVECTOR& vector1, const XMVECTOR& vector2)
 {
 	XMVECTOR vectorSub = XMVectorSubtract(vector1, vector2);
@@ -159,3 +149,4 @@ float distance(const XMVECTOR& vector1, const XMVECTOR& vector2)
 	XMStoreFloat(&distance, length);
 	return distance;
 }
+#endif

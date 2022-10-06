@@ -134,9 +134,9 @@
     <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Image Include="Assets\StoreLogo.png" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Image Include="Media\Texture\kadowakipoly.jpg" />
-    <Image Include="Media\Texture\LF_texture.jpg" />
-    <Image Include="Media\Texture\poly.jpg" />
+    <Image Include="Media\Textures\kadowakipoly.jpg" />
+    <Image Include="Media\Textures\LF_texture.jpg" />
+    <Image Include="Media\Textures\poly.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
@@ -152,11 +152,9 @@
     <ClCompile Include="Cannon\MixedReality.cpp" />
     <ClCompile Include="Cannon\RecordedValue.cpp" />
     <ClCompile Include="Cannon\TrackedHands.cpp" />
-    <ClCompile Include="DrawObject.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Render.cpp" />
     <ClCompile Include="Update.cpp" />
   </ItemGroup>
   <ItemGroup>

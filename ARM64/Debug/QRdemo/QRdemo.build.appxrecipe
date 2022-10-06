@@ -84,14 +84,14 @@
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Texture\kadowakipoly.jpg">
-      <PackagePath>Media\Texture\kadowakipoly.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Textures\kadowakipoly.jpg">
+      <PackagePath>Media\Textures\kadowakipoly.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Texture\LF_texture.jpg">
-      <PackagePath>Media\Texture\LF_texture.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Textures\LF_texture.jpg">
+      <PackagePath>Media\Textures\LF_texture.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Texture\poly.jpg">
-      <PackagePath>Media\Texture\poly.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Textures\poly.jpg">
+      <PackagePath>Media\Textures\poly.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\Media\Meshes\poly.obj">
       <PackagePath>Media\Meshes\poly.obj</PackagePath>

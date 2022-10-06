@@ -1,9 +1,11 @@
 #include "pch.h"
 #include "AppMain.h"
 
+
 using namespace DirectX;
 using namespace std;
 using namespace winrt::Windows::Storage;
+
 
 void AppMain::Render()
 {
