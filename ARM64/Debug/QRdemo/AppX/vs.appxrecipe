@@ -35,7 +35,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\ARM64\Debug\QRdemo\QRdemo.exe">
       <PackagePath>QRdemo.exe</PackagePath>
-      <Modified>2022-10-06T07:15:23.026</Modified>
+      <Modified>2022-10-06T08:05:48.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\piyorin\dev\QRdemo\packages\Microsoft.MixedReality.QR.0.5.3019\build\native\..\..\runtimes\win10-ARM64\native\Microsoft.MixedReality.QR.dll">
       <PackagePath>Microsoft.MixedReality.QR.dll</PackagePath>
